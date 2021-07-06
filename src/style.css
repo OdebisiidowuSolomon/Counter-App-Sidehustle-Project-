@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+
+body {
+  /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+  font-family: "Roboto", sans-serif;
+  background-image: url("mainBcg.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.container {
+  border: 1px solid white;
+  width: 35%;
+  padding: 3.5em;
+  text-align: center;
+  margin: auto;
+  margin-top: 8em;
+  border-radius: 4px;
+  box-shadow: 1px 8px 10px black;
+}
+
+.name {
+  font-size: 2.5em;
+  color: white;
+  /* font-weight: bolder; */
+  padding-bottom: 0.6em;
+}
+
+.number {
+  font-size: 10em;
+  padding-bottom: 0.1em;
+  color: rgb(55, 53, 53);
+}
+
+.controls {
+  display: flex;
+  justify-content: space-around;
+  font-size: 15px;
+}
+
+button {
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(27, 40, 77);
+  box-shadow: 2px 3px 8px black;
+  padding: 11px;
+  font-size: 1em;
+  color: white;
+  cursor: pointer;
+}
+
+.green {
+  color: green;
+}
+
+.red {
+  color: red;
+}
+
+.purple {
+  color: purple;
+}
+
+@media (max-width: 330px) {
+  .container {
+    width: auto;
+    max-width: 100px;
+    /* padding-right: 50px; */
+  }
+
+  button {
+    font-size: 10px;
+  }
+
+  .name {
+    font-size: 1.3em !important;
+    color: red;
+  }
+
+  .number {
+    font-size: 6em !important;
+  }
+}
+
+@media (max-width: 540px) {
+  .number {
+    font-size: 9em !important;
+  }
+  .name {
+    width: 100%;
+    margin-right: 1em;
+    font-size: 3em;
+  }
+  .container {
+    width: 60%;
+  }
+}
+
+@media (max-width: 860px) {
+  .controls {
+    display: block;
+  }
+
+  button {
+    margin: auto;
+    display: block;
+    margin-bottom: 1.5em;
+  }
+}
