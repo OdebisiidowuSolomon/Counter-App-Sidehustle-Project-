@@ -22,17 +22,17 @@ function decrement() {
 setInterval(() => {
   no.innerText = number;
 
-  let colo = "";
+  let color = "";
   switch (number) {
     case 0:
-      colo = "red";
+      color = "red";
       break;
     case 50:
-      colo = "purple";
+      color = "purple";
       break;
     default:
-      colo = "green";
+      color = "green";
       break;
   }
-  no.style.color = colo;
+  no.style.color = color;
 }, 100);
