@@ -5,7 +5,7 @@ let no = document.getElementById("number");
 lower.addEventListener("click", decrement);
 add.addEventListener("click", increment);
 
-let number = 50;
+let number = 7;
 
 function increment() {
   if (number === 50) return;

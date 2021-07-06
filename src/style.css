@@ -50,6 +50,10 @@ button {
   cursor: pointer;
 }
 
+button:hover {
+  background-color: rgb(54, 67, 102);
+}
+
 .green {
   color: green;
 }
@@ -75,7 +79,6 @@ button {
 
   .name {
     font-size: 1.3em !important;
-    color: red;
   }
 
   .number {
