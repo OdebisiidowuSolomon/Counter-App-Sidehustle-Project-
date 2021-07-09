@@ -9,8 +9,6 @@ let number = 7;
 
 function increment() {
   if (number === 50) return;
-  console.log("Hello");
-  console.log(number);
   number += 1;
 }
 
